@@ -1,24 +1,23 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package Atividade_JAVA;
-
-/**
- *
- * @author Carlos Santos
- */
+import java.util.Scanner;
+// @author Carlos Santos
 public class Ex01 {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
-        float base = 10;
-        float altura = 20;
-        float area = base * altura;
+        Scanner teclado = new Scanner(System.in);
+ 
+        System.out.println("Diga em metros, a base desse retângulo: ");
+        float b = teclado.nextFloat();
+
+        System.out.println("Diga em metros, a altura desse retângulo: ");
+        float h = teclado.nextFloat();
+         if(h == b){
+            System.out.println("\nEsta forma é um quadrado e não um retângulo!");
+            System.exit(0);
+         }
+        float area = b * h;
         
-        System.out.println("A área do retângula de base = 10m e altura = 20m é " + area + "m²");
+        System.out.println("\nA área do retângula de base = " + b + " e altura = " + h+ " é " + area + "m²");
+
+        teclado.close();
         }
     }
