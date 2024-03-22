@@ -1,6 +1,6 @@
 package Atividade_JAVA;
-import java.util.Scanner;
 //@author Carlos Santos
+import java.util.Scanner;
 public class Ex02 {
     public static void main(String[] args) {
     Scanner teclado = new Scanner(System.in);
@@ -10,6 +10,8 @@ public class Ex02 {
 
         System.out.println("Me diga o 2° valor: ");
         float b = teclado.nextFloat();
+
+        //Input das informações necessárias
 
         System.out.println("\nO valor de A:" + a + "\nO valor de B:" + b);
 
@@ -27,4 +29,5 @@ public class Ex02 {
 
         teclado.close();
         }
+
     }
