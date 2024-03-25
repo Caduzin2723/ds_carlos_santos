@@ -10,7 +10,7 @@ public class Ex11 {
         //Declaração dos preços
 
         System.out.println("Digite qual combustível você vai comprar(A-ácool / G-gasolina): ");
-        var combustivel = teclado.nextLine();
+        String combustivel = teclado.next();
 
         System.out.println("Digite quantos litros vai comprar: ");
         float litros = teclado.nextFloat();

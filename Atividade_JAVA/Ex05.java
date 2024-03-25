@@ -6,6 +6,16 @@ public class Ex05 {
         Scanner teclado = new Scanner(System.in);
 
         System.out.println("Digite sua idade:");
+        float idade = teclado.nextFloat();
+
+        //Input das informações necessárias
+
+        float anos = idade;
+        float meses = idade * 12f;
+        float dias = idade * 365.25f;
+        //Fórmulas para descobiri aproximadamente os anos, meses e dias vividos
+
+        System.out.println("Você viveu: \nAnos: " + anos + "\nMeses: " + meses + "\nDias: " + dias);
 
     teclado.close();
     }

@@ -6,13 +6,13 @@ public class Ex010 {
     Scanner teclado = new Scanner(System.in);
 
         System.out.println("Digite seu nome: ");
-        var nome = teclado.nextLine();
+        String nome = teclado.nextLine();
 
         System.out.println("Digite sua altura(metros): ");
         float altura = teclado.nextFloat();
 
         System.out.println("Digite seu sexo (M/F): ");
-        var sexo = teclado.nextLine();
+        String sexo = teclado.nextLine();
 
         //Input das informações necessárias
 
