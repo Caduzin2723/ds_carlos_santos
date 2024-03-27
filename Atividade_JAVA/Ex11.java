@@ -4,43 +4,45 @@ import java.util.Scanner;
 public class Ex11 {
     public static void main(String[] args) {
     Scanner teclado = new Scanner(System.in);
-        
-        float precoGasolina = 3.30f;
-        float precoAlcool = 2.90f;
+
+        double precoAlcool = 2.90f;  
+        double precoGasolina = 3.30f;
         //Declaração dos preços
 
-        System.out.println("Digite qual combustível você vai comprar(A-ácool / G-gasolina): ");
-        String combustivel = teclado.next();
+        System.out.println("\nDigite qual combustível você vai comprar(A-ácool / G-gasolina): ");
+        char combustivel = teclado.next().charAt(0);
 
-        System.out.println("Digite quantos litros vai comprar: ");
-        float litros = teclado.nextFloat();
-
+        System.out.println("\nDigite quantos litros vai comprar: ");
+        double litros = teclado.nextDouble();
         //Input das informações necessárias
 
-        
-        if(combustivel == "A"){//Identificador de combustível 
+        double desonto = 0;
+        double precoFinal = 0;
+        double desconto;
 
-            if (litros >= 20) {
-                float precoFinal = litros * (3 / 100) * precoAlcool; //Desconto de 3%
+        if(combustivel == 'A' || combustivel == 'a'){//Identificador de combustível 
+            if (litros < 20) {
+                precoFinal = litros * precoAlcool; 
+                desconto = precoFinal * (3.0 / 100);//Desconto de 3%
+            }else{
+                precoFinal = litros * precoAlcool; 
+                desconto = precoFinal * (5.0 / 100);//Desconto de 5%
             }
-            else{
-                float precoFinal = litros * (5 / 100) * precoAlcool; //Desconto de 5%
+        }else if (combustivel == 'G' || combustivel == 'g') {
+            if (litros < 20) {
+                precoFinal = litros * precoGasolina; 
+                desconto = precoFinal * (4.0 / 100);//Desconto de 4%
+            }else{
+                precoFinal = litros * precoGasolina; 
+                desconto = precoFinal * (6.0 / 100);//Desconto de 6%
             }
+        }else{
+            System.out.println("\nCombustível inválido");
+            return;
         }
-        else if (combustivel == "G") {
-            
-            if (litros >= 20) {
-                float precoFinal = litros * (4 / 100) * precoGasolina; //Desconto de 4%
-            }
-            else{
-                float precoFinal = litros * (6 / 100) * precoGasolina; //Desconto de 6%
-            }
-        }
-        else{
-            
-            System.out.println("Combustível inválido");
-            System.exit(0);
-        }
+
+        double precoDesc = precoFinal - desconto;
+        System.out.printf("\nO preço à pagar será de R$%.2f%n", precoDesc);
  
         teclado.close();
         }

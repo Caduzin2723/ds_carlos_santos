@@ -5,11 +5,11 @@ public class Ex09 {
     public static void main(String[] args) {
     Scanner teclado = new Scanner(System.in);
 
-        System.out.println("Digite seu salário fixo: R$");
+        System.out.println("Digite seu salário fixo (R$): ");
         float salario = teclado.nextFloat();
 
         System.out.println("Digite quantos carros você vendeu: ");
-        String carros = teclado.nextLine();
+        var carros = teclado.nextLine();
 
         System.out.println("Digite qual o total das suas vendas: R$ ");
         float vendas = teclado.nextFloat();
