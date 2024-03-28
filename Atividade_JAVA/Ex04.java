@@ -6,7 +6,7 @@ public class Ex04 {
     public static void main(String[] args) {
     Scanner teclado = new Scanner(System.in);
 
-        System.out.println("Diga um valor: ");
+        System.out.println("Diga um valor inteiro: ");
         int numero = teclado.nextInt();
 
         //Input das informações necessárias

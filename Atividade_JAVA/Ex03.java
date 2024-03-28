@@ -20,8 +20,8 @@ public class Ex03 {
 
         float precoPagar = litroGasto * valorCombustivel; //Fórmula para descobrir o valor gasto pelo combustível
 
-        System.out.println("Você gatará " + litroGasto + "L para percorrer essa distância\n");
-        System.out.println("O preço a pagar pelo combustível: R$" + precoPagar);
+        System.out.printf("%nVocê gatará %.2f L para percorrer essa distância%n", litroGasto);
+        System.out.printf("%nO preço a pagar pelo combustível: R$%.2f", precoPagar);
 
         teclado.close();
     }

@@ -16,7 +16,7 @@ public class Ex07 {
 
         float novoSalario = salario + (reajuste / 100f * salario); //Fórmula para aumentar o salário com base no percentual do reajuste
 
-        System.out.println("\nSeu novo salário : R$" + novoSalario);
+        System.out.printf("\nSeu novo salário : R$%.2f", novoSalario);
 
         teclado.close();
         }

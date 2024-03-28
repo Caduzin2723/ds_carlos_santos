@@ -13,16 +13,14 @@ public class Ex01 {
         
         //Input das informações necessárias
 
-         if(h == b){ 
-        //if caso tentem colocar as medidas de um quadrado
-
+         if(h == b){ //if caso tentem colocar as medidas de um quadrado
             System.out.println("\nEsta forma é um quadrado e não um retângulo!");
-            System.exit(0);
+            return;
          }
 
         float area = b * h; //Fórmula para medir a área de um retângulo
         
-        System.out.println("\nA área do retângula de base = " + b + " e altura = " + h+ " é " + area + "m²");
+        System.out.printf("\nA área do retângulo de base = %.2fm² e altura = %.2fm² é %.2fm²", b, h, area);
 
         teclado.close();
         }

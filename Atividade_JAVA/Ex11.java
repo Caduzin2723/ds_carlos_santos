@@ -21,7 +21,7 @@ public class Ex11 {
         double desconto;
 
         if(combustivel == 'A' || combustivel == 'a'){//Identificador de combustível 
-            if (litros < 20) {
+            if (litros <= 20) {
                 precoFinal = litros * precoAlcool; 
                 desconto = precoFinal * (3.0 / 100);//Desconto de 3%
             }else{
@@ -29,7 +29,7 @@ public class Ex11 {
                 desconto = precoFinal * (5.0 / 100);//Desconto de 5%
             }
         }else if (combustivel == 'G' || combustivel == 'g') {
-            if (litros < 20) {
+            if (litros <= 20) {
                 precoFinal = litros * precoGasolina; 
                 desconto = precoFinal * (4.0 / 100);//Desconto de 4%
             }else{

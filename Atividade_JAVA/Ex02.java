@@ -13,7 +13,7 @@ public class Ex02 {
 
         //Input das informações necessárias
 
-        System.out.println("\nO valor de A:" + a + "\nO valor de B:" + b);
+        System.out.printf("\nO valor de A:%.2f%nOvalor de B:%.2f%n", a, b);
 
         float c = 0;
 
@@ -25,7 +25,7 @@ public class Ex02 {
 
         // Código que inverte os valores utilizando  o auxiliar
 
-        System.out.println("O novo valor de A:" + a + "\nO novo valor de B:" + b);
+        System.out.printf("O novo valor de A: %.2f%n O novo valor de B:%.2f", a, b);
 
         teclado.close();
         }

@@ -15,7 +15,7 @@ public class Ex05 {
         float dias = idade * 365.25f;
         //Fórmulas para descobiri aproximadamente os anos, meses e dias vividos
 
-        System.out.println("\nVocê viveu: \nAnos: " + anos + "\nMeses: " + meses + "\nDias: " + dias);
+        System.out.printf("\nVocê viveu: %nAnos:%.2f%nMeses: %.2f%nDias: %.2f%n", anos, meses, dias);
 
     teclado.close();
     }

@@ -12,7 +12,7 @@ public class Ex08 {
 
         float valorFinal = valorFabrica + ((28f / 100f * valorFabrica) + (45f / 100f * valorFabrica)); //Fórmula para adicionas os 28% do fabbricante e 45% dos impostos
 
-        System.out.println("\nO valor final do carro com o percentual do distribuidor(28%) e os impostos(45%) ficará em: R$" + valorFinal);
+        System.out.printf("\nO valor final do carro com o percentual do distribuidor(28%) e os impostos(45%) ficará em: R$$.2f", valorFinal);
 
         teclado.close();
     }    
