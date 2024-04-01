@@ -5,7 +5,7 @@ public class Ex09 {
     public static void main(String[] args) {
     Scanner teclado = new Scanner(System.in);
 
-        System.out.println("Digite seu salário fixo (R$): ");
+        System.out.println("Digite seu salário fixo R$: ");
         double salario = teclado.nextDouble();
 
         teclado.nextLine();
@@ -15,7 +15,6 @@ public class Ex09 {
 
         System.out.println("Digite qual o total das suas vendas: R$ ");
         double vendas = teclado.nextDouble();
-
         //Input das informações necessárias
 
         double salarioFinal = salario + (5f / 100f * vendas); //Fórmula para somar o salário com os 5% das vendas

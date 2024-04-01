@@ -8,9 +8,8 @@ public class Ex01 {
         System.out.println("Diga em metros, a base desse retângulo: ");
         float b = teclado.nextFloat();
 
-        System.out.println("Diga em metros, a altura desse retângulo: ");
+        System.out.println("\nDiga em metros, a altura desse retângulo: ");
         float h = teclado.nextFloat();
-        
         //Input das informações necessárias
 
          if(h == b){ //if caso tentem colocar as medidas de um quadrado
