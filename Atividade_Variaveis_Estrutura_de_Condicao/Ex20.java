@@ -1,7 +1,7 @@
-package Atividade_JAVA;
+package Atividade_Variaveis_Estrutura_de_Condicao;
 //@author Carlos Santos
 import java.util.Scanner;
-public class Ex10 {
+public class Ex20 {
 
     public static void main(String[] args) {
     Scanner teclado = new Scanner(System.in);
