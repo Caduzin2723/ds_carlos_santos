@@ -2,6 +2,7 @@ package Atividade_Variaveis_Estrutura_de_Condicao;
 //@author Carlos Santos
 import java.util.Scanner;
 public class Ex21_22 {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
     Scanner teclado = new Scanner(System.in);
 
@@ -16,6 +17,7 @@ public class Ex21_22 {
         double litros = teclado.nextDouble();
         //Input das informações necessárias
 
+        @SuppressWarnings("unused")
         double desonto = 0;
         double precoFinal = 0;
         double desconto;

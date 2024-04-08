@@ -11,7 +11,8 @@ public class Ex09 {
         teclado.nextLine();
 
         System.out.println("Digite quantos carros você vendeu: ");
-        String carros = teclado.nextLine();
+        @SuppressWarnings("unused")
+        String carro = teclado.nextLine();
 
         System.out.println("Digite qual o total das suas vendas: R$ ");
         double vendas = teclado.nextDouble();

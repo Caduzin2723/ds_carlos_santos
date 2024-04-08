@@ -2,6 +2,7 @@ package Atividade_Variaveis_Estrutura_de_Condicao;
 //@author Carlos Santos
 import java.util.Scanner;
 public class Ex05 {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
      

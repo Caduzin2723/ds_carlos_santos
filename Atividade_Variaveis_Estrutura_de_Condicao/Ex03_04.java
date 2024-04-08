@@ -6,6 +6,7 @@ public class Ex03_04 {
         Scanner teclado = new Scanner(System.in);
 
         System.out.println("Digite seu nome: ");
+        @SuppressWarnings("unused")
         String nome = teclado.nextLine();
 
         System.out.println("Digite seu salário fixo R$: ");

@@ -11,6 +11,7 @@ public class Ex19 {
         teclado.nextLine();
 
         System.out.println("Digite quantos carros você vendeu: ");
+        @SuppressWarnings("unused")
         String carros = teclado.nextLine();
 
         System.out.println("Digite qual o total das suas vendas: R$ ");
