@@ -2,7 +2,7 @@ package Atividade_While;
 //@author Carlos Santos
 import java.util.Scanner;
 
-public class Ex07 {
+public class Ex08 {
     public static void main(String[] args) {
     Scanner teclado = new Scanner(System.in);
 
@@ -16,11 +16,22 @@ public class Ex07 {
             System.out.println("Valor inválido");
             return;
         }
-        for(int indice = 0; indice < lado; indice++){
-            for(int indice2 = 0; indice2 < lado; indice2++){
-                System.out.print("*");
+
+        for (int i = 0; i < lado; i++) { // Primeira linha
+            System.out.print("*");
+        }
+        System.out.println();
+
+        for (int i = 0; i < lado - 2; i++) { // Meio
+            System.out.print("*");
+            for (int j = 0; j < lado - 2; j++) {
+                System.out.print(" ");
             }
-            System.out.println();
+            System.out.println("*");
+        }
+        
+        for (int i = 0; i < lado; i++) { // Última linha
+            System.out.print("*");
         }
         System.out.println();
 

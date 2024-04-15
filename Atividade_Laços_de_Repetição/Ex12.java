@@ -6,7 +6,7 @@ public class Ex12 {
 
     for(int indice = 1; indice <= 10; indice++){
     int num = 8 * indice;
-    System.out.println(num + "\n");
+    System.out.println("8 * "+ indice + " = " + num + "\n");
     }
 
     }
