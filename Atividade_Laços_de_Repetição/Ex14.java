@@ -1,10 +1,8 @@
 package Atividade_Laços_de_Repetição;
 //@author Carlos Santos
-import java.util.Scanner;
 
 public class Ex14 {
     public static void main(String[] args) {
-    Scanner teclado = new Scanner(System.in);
 
     float A = 80000;
     float B = 200000;
@@ -17,5 +15,7 @@ public class Ex14 {
     }
 
     System.out.println("Após " + anos + " anos, a população do país A ultrapassará ou igualará a população do país B.");
-}
+
+    }
+
 }
