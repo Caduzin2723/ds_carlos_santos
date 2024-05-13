@@ -20,7 +20,7 @@ public static void main(String[] args) {
         System.out.println("\nDigite o " + indice + "° número inteiro: ");
         numero[indice] = teclado.nextInt();
 
-        if(menor > numero[indice]){
+        if(menor >= numero[indice]){
             menor = numero[indice]; // Compara o número digitado com o anterior
         }
 
