@@ -3,7 +3,6 @@ package    Atividade_Laços_de_Repetição;
 import java.util.Scanner;
 
 public class Ex05 {
-    @SuppressWarnings("unused")
     public static void main(String[] args) {
     Scanner teclado = new Scanner(System.in);
 
@@ -30,7 +29,6 @@ public class Ex05 {
         System.out.println("\n\nDeseja calcular novamente? ");
         calcular = teclado.nextLine();
         }
-
     teclado.close();
     }
 
