@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9b7e793c-3c1f-481f-9e46-f6ca80264bb1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Calculadora/Calculo.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Calculadora/Calculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Calculadora/applet.policy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Calculadora/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Calculadora/src/Formulario/Calculo.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Calculadora/src/Formulario/Calculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Calculadora/src/calculadora/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2/src/ex2/Ex2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex2/src/exFormulario.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2iKBQV7Ka9WyRgit2Pm9KZDX01l" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b7e793c-3c1f-481f-9e46-f6ca80264bb1" name="Changes" comment="" />
+      <created>1719229373534</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719229373534</updated>
+    </task>
+    <servers />
+  </component>
+</project>
