@@ -1,5 +1,4 @@
-package Avaliação_Final;
-
+package Avaliação_final;
 //@author Carlos Santos
 public class Pessoa {
     private String nome = "João";
